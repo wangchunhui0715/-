@@ -266,3 +266,119 @@ number > 5 ? "是的" : "不是的";
 
 
 ##### 	while循环
+
+```js
+//初始化变量 写在外面
+while(条件表达式){
+//循环体
+//计数器要有,
+    }
+
+
+do while 循环
+do{
+    //循环体         //先执行代码在做判断
+}while(条件表达式)   //do while至少执行一次
+```
+
+
+
+
+##### 断点调试   
+
+​		控制台sourcer   选好要调试的代码 点击前面的数字刷新页面 
+
+##### 关键字
+
+​	
+
+```js
+	continue   //退出当前循环,继续执行下面代码
+
+	break    //直接退出循环
+
+
+```
+
+### 数组 array
+
+​	![](C:\Users\王春辉\AppData\Roaming\Typora\typora-user-images\image-20210701084046569.png)
+
+##### 	创建数组   
+
+​		关键字new创建
+
+```js
+var arr = new Array();
+```
+
+数组字面量创建
+
+```js
+var 数组名 = [1,2,3,];
+```
+
+##### 	索引数组
+
+​		索引(下标) 用来访问数组元素
+
+```js
+ var arr = ["小黑","小白","小黄"];
+     alert (arr[0]);  //获取数组
+```
+
+#####  	遍历数组
+
+```js
+	遍历:从头到尾访问一边数组
+    var arr = [1,2,3]
+    for(i= 0; i<3 ;i++) {
+        console.log(arr[i]);
+    }
+```
+
+##### 	数组长度:数组.length;
+
+##### 新增数组元素
+
+![](C:\Users\王春辉\AppData\Roaming\Typora\typora-user-images\image-20210701123401494.png)
+
+##### 冒泡排序
+
+![](C:\Users\王春辉\AppData\Roaming\Typora\typora-user-images\image-20210701202122643.png)
+
+### 函数
+
+​	函数就是封装了一段可以被重复调用的代码块.可以重复使用
+
+##### 	函数声明和调用
+
+```js
+	function 函数名(){
+        //函数体
+    }
+//调用  函数名+()就可以调用了 小括号里放参数
+函数名();
+
+```
+
+##### 	函数的封装 
+
+​		把一个或多个功能通过函数的方式封装起来,对外只提供一个简单地函数接口.
+
+![](C:\Users\王春辉\AppData\Roaming\Typora\typora-user-images\image-20210701205010374.png)
+
+![](C:\Users\王春辉\AppData\Roaming\Typora\typora-user-images\image-20210701205840946.png)
+
+##### 函数的返回值
+
+```js
+//return
+function 函数名(){
+    //函数体 
+    return  //返回值           函数里不可以有输出语句
+}
+//调用函数
+函数名();   return后面不在执行后面 代码
+```
+
